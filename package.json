@@ -1,7 +1,9 @@
 {
   "name": "learning",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "scripts": {
+    "startA": "pnpm --filter my-a start",
+    "startB": "pnpm --filter my-b start",
+    "startC": "pnpm --filter my-c start"
+  }
 }

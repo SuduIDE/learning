@@ -3,5 +3,10 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "startA": "npm run -w my-a start",
+    "startB": "npm run -w my-b start",
+    "startC": "npm run -w my-c start"
+  }
 }

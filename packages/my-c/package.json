@@ -1,0 +1,15 @@
+{
+  "name": "my-c",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "lib.js",
+  "dependencies": {
+    "chalk": "latest",
+    "my-a": "0.0.0",
+    "my-b": "0.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

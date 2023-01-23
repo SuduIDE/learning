@@ -14,7 +14,7 @@ importers:
   packages/my-b:
     specifiers:
       chalk: 2.4.2
-      my-a: 0.0.0
+      my-a: workspace:*
     dependencies:
       chalk: 2.4.2
       my-a: link:../my-a
@@ -22,8 +22,8 @@ importers:
   packages/my-c:
     specifiers:
       chalk: latest
-      my-a: 0.0.0
-      my-b: 0.0.0
+      my-a: workspace:*
+      my-b: workspace:*
     dependencies:
       chalk: 5.2.0
       my-a: link:../my-a

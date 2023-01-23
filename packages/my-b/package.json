@@ -6,7 +6,7 @@
   "main": "lib.js",
   "dependencies": {
     "chalk": "2.4.2",
-    "my-a": "0.0.0"
+    "my-a": "workspace:*"
   },
   "scripts": {
     "start": "node index.js"

@@ -6,8 +6,8 @@
   "main": "lib.js",
   "dependencies": {
     "chalk": "latest",
-    "my-a": "0.0.0",
-    "my-b": "0.0.0"
+    "my-a": "workspace:*",
+    "my-b": "workspace:*"
   },
   "scripts": {
     "start": "node index.js"

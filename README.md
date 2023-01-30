@@ -5,18 +5,25 @@ Monorepo demo project to demonstrate various package managers: [npm](https://doc
 Packages:
 * `my-a` - CommonJs module. Exports `say` function that prints Yeoman saying given message to console. Depends on [`yosay`](https://github.com/yeoman/yosay) package
 * `my-b` - ES module. Exports `sayRed` function that colors given message and prints Yeoman. Depends on `my-a`
-* `my-c` - ES module. Exports `say` function that colors given message to red if it starts with "red: " prefix and prints Yeoman. Depends on `my-a` and `my-b`. 
+* `my-c` - ES module. Exports `say` function that colors given message to red if it starts with "red: " prefix and prints Yeoman. Depends on `my-a` and `my-b`.
 
-## Prerequisites
+## Getting Started
 
 * Enable [corepack](https://github.com/nodejs/corepack) (requires Node >= 16.9.x, admin rights)
 ```sh
 corepack enable
 ```
-
-## Getting Started
-
-Checkout one of the branches
-* package-managers-npm
-* package-managers-yarn
-* package-managers-pnpm
+* Install dependencies
+```sh
+npm install
+```
+* Run scripts
+```sh
+npm run startA
+```
+```sh
+npm run startB
+```
+```sh
+npm run startC 'red: text'
+```

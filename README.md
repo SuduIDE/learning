@@ -9,7 +9,7 @@ Packages:
 
 ## Branches
 
-* package-managers-yarn-pnp - [Plug`n`play](https://yarnpkg.com/features/pnp) mode for module loading
+* package-managers-yarn-pnp - [Plug-n-play](https://yarnpkg.com/features/pnp) mode for module loading
 * package-managers-yarn-pnpm - [pnpm](https://pnpm.io/motivation) mode for module linking
 
 ## Getting Started

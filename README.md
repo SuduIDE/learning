@@ -7,6 +7,11 @@ Packages:
 * `my-b` - ES module. Exports `sayRed` function that colors given message and prints Yeoman. Depends on `my-a`
 * `my-c` - ES module. Exports `say` function that colors given message to red if it starts with "red: " prefix and prints Yeoman. Depends on `my-a` and `my-b`.
 
+## Branches
+
+* package-managers-yarn-pnp - [Plug`n`play](https://yarnpkg.com/features/pnp) mode for module loading
+* package-managers-yarn-pnpm - [pnpm](https://pnpm.io/motivation) mode for module linking
+
 ## Getting Started
 
 * Enable [corepack](https://github.com/nodejs/corepack) (requires Node >= 16.9.x, admin rights)

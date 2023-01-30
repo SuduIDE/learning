@@ -1,3 +1,4 @@
 /.idea/
-/.yarn/
+/.yarn/*
+!/.yarn/cache
 node_modules
